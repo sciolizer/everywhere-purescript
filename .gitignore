@@ -4,3 +4,4 @@
 /purescript/src/.webpack.js
 /java/out
 *.class
+/haskell/.stack-work

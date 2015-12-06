@@ -1,0 +1,36 @@
+name:                guess
+version:             0.1.0.0
+synopsis:            Guess my number
+description:         Demos execution of a purescript program
+homepage:            http://github.com/joshball/everywhere-purescript#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Joshua Ball
+maintainer:          joshball@yahoo-inc.com
+copyright:           Joshua Ball
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+-- library
+  -- hs-source-dirs:      src
+  -- exposed-modules:     Lib
+  -- build-depends:       base >= 4.7 && < 5
+  -- default-language:    Haskell2010
+  -- -}
+
+executable guess
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                       , aeson
+                       , bytestring
+                       , hs-duktape
+                       , text
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/joshball/everywhere-purescript

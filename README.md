@@ -31,3 +31,14 @@ cd ../java
 javac Main.java
 java Main
 ```
+
+Haskell
+-------
+
+```
+cd purescript
+pulp browserify > ../haskell/app.js
+cd ../haskell
+stack build --extra-include-dirs=$(pwd)/duktape/src
+stack exec guess
+```
