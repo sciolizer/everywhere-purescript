@@ -2,3 +2,5 @@
 /purescript/.psci*
 /purescript/.pulp-cache
 /purescript/src/.webpack.js
+/java/out
+*.class

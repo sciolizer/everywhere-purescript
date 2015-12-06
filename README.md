@@ -17,3 +17,13 @@ cd browser
 cp ../purescript/app.js .
 open index.html
 ```
+
+Java
+----
+
+```
+cd java
+cp ../purescript/app.js .
+javac Main.java
+java Main
+```
