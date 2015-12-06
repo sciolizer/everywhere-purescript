@@ -1,0 +1,26 @@
+{
+  "name": "purescript-node-readline",
+  "homepage": "https://github.com/purescript-contrib/purescript-node-readline",
+  "keywords": [
+    "purescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-node/purescript-node-readline.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "tests",
+    "tmp",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-console": "^0.1.0"
+  }
+}

@@ -1,0 +1,4 @@
+/purescript/output/
+/purescript/.psci*
+/purescript/.pulp-cache
+/purescript/src/.webpack.js

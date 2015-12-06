@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script language="javascript">
+window.context = {
+  display: function(text) {
+    console.log(text);
+  },
+  onInput: function(handler) {
+    var i = document.getElementById('theInput');
+    i.onkeypress = function(e) {
+      if (e.keyCode == 13) {
+        handler(i.value);
+        i.value = "";
+      }
+      return true;
+    };
+  }
+};
+    </script>
+  </head>
+  <body>
+    <form onsubmit="return false;" action=".">
+      <input type="text" id="theInput" />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
