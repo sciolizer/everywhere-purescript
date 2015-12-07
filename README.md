@@ -3,18 +3,21 @@ Purescript everywhere
 
 Demonstrates how to run a purescript program in various environments.
 
+Node
+----
+
 ```
 cd purescript
-pulp browserify > app.js
-cd ..
+pulp run
 ```
 
 Browser
 -------
 
 ```
-cd browser
-cp ../purescript/app.js .
+cd purescript
+pulp browserify > ../browser/app.js
+cd ../browser
 open index.html
 ```
 
@@ -22,8 +25,9 @@ Java
 ----
 
 ```
-cd java
-cp ../purescript/app.js .
+cd purescript
+pulp browserify > ../java/app.js
+cd ../java
 javac Main.java
 java Main
 ```
